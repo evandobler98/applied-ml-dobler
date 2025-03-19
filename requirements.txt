@@ -153,28 +153,27 @@ matplotlib
 seaborn
 
 # Interactive plotting library, often used with Shiny apps (~20-25 MB)
-#plotly
+plotly
 
 # ======================================================
 # CONTINUOUS INTELLIGENCE AND INTERACTIVE ANALYTICS
 # ======================================================
 
 # Shiny framework for Python applications (~5-10 MB)
-#shiny
+shiny
 
 # ======================================================
 # KAFKA STREAMING MESSAGE BROKER INTEGRATION
 # ======================================================
 
-# Apache Kafka Python client (~1 MB)
-#kafka-python
+
 
 # ======================================================
 # STREAM PROCESSING - CAN BE VERY LARGE
 # ======================================================
 
 # Streaming data processing framework (~200-250 MB)
-#pyspark<4.0.0
+pyspark<4.0.0
 
 # ======================================================
 # MACHINE LEARNING (ML)
@@ -184,17 +183,17 @@ seaborn
 # Keep it commented out the FIRST time you run pip install from requirements.txt
 # Uncomment it the SECOND time you run pip install from requirements.txt
 # Otherwise, it's too much work and takes too long. Two steps is better. 
-# scikit-learn
+ scikit-learn
 
 # ======================================================
 # NATURAL LANGUAGE PROCESSING (NLP) - CAN BE VERY LARGE
 # ======================================================
 
-# NLP library for text processing (~10 MB core library; downloading corpora can add ~1 GB).
-#nltk
+ #NLP library for text processing (~10 MB core library; downloading corpora can add ~1 GB).
+nltk
 
-# SpaCy: A powerful NLP library ~50 MB (core library; language models + ~300 MB or more per model).
-#spacy
+#SpaCy: A powerful NLP library ~50 MB (core library; language models + ~300 MB or more per model).
+spacy
 
 # ======================================================
 # OPTIONAL - EXPORT SPECIFIC PACKAGE VERSIONS
